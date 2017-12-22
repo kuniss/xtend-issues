@@ -25,7 +25,7 @@ class AAnnotatedType1 {
         @Port(name="input", type=String)
     ],
     outputPorts = #[
-        @Port(name="log4jDomainModel", type=String)
+        @Port(name="log4jDomainModel", type=MyLocalJavaType)
     ]
 )
 class AAnnotatedType2 {
